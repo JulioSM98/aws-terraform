@@ -6,6 +6,7 @@ variable "instances" {
     subnet_id                   = string
     associate_public_ip_address = bool
     instance_profile_key        = string
+    key_pair_name               = string
     security_groups_keys        = list(string)
     tags                        = map(string)
   }))
